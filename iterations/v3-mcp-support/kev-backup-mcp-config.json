@@ -1,0 +1,29 @@
+{
+    "mcpServers": {
+        "puppeteer": {
+            "command": "node",
+            "args": [
+                "C:/Users/kevin/AppData/Roaming/npm/node_modules/@modelcontextprotocol/server-puppeteer/dist/index.js"
+            ]
+        },
+        "web-scraper": {
+            "command": "node",
+            "args": [
+                "C:\\Users\\kevin\\Documents\\Cline\\MCP\\web-scraper\\build\\index.js"
+            ]
+        },
+        "archon": {
+            "command": "python",
+            "args": [
+                "C:\\Users\\kevin\\Documents\\Cline\\MCP\\archon\\iterations\\v3-mcp-support\\mcp_server.py"
+            ]
+        },
+        "browser-tools": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@agentdeskai/browser-tools-mcp@1.0.11"
+            ]
+        }
+    }
+}
